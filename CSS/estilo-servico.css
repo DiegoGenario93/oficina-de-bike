@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    min-width: 100vw;
+}
+nav{
+    background: orange;
+    color:white;
+    display: inline-block;
+     --tamanho: 20px;
+    width: 100%;
+    padding: var(--tamanho);
+}
+.titulonav{
+    text-align: center;
+
+}
+
+main{
+    padding: 30px 50px;
+    padding: 2rem 4rem;
+    display: inline-block;
+     --tamanho: 20px;
+    width: 100%;
+    padding: var(--tamanho);
+}
+.card{
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius:5px;
+}
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background: orange;
+    color: #fff;
+    border-radius: 3px;
+    font-weight:bold;
+    transition: 0.3ms;
+    }
+    button:hover{
+        background: rgb(100, 66, 2);
+
+    }
+
+    #botao{
+        color: gray;
+        color: white;
+       
+        
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .local{
+        margin-left: 700px;
+    }
+    .mapa{
+        margin-left: 500px;
+        height: 200px;
+    }
+    #corpo{
+        border: solid gray 3px;
+    }
+    .icone{
+        width: 70px;
+        height: 70px;
+    }
+
+    body{
+        width: 1920px;
+    }
+    
+
+    @media(max-whidth:1920px){
+        header,  main, section,label,buton{
+            width: 1200px;
+        }
+    }
+
+    @media(max-whidth:1200px){
+        header,  main, section,label,buton,nav{
+            width: 1024px;
+        }
+    }
+
+    @media(max-whidth:1024px){
+        header,  main, section,label,buton,nav{
+            width: 700px;
+        }
+    }
+    @media(max-whidth:700px){
+        header,  main, section,label,buton,nav{
+            width: 400px;
+        }
+    }
+
+    @media(max-whidth:400px){
+        header,  main, section,label,buton,nav{
+            width: 300px;
+        }
+    }
+    
+    @media(max-whidth:300px){
+        header,  main, section,label,buton,nav{
+            width: 200px;
+        }
+    }
+    @media(max-whidth:200px){
+        header,  main, section,label,buton,nav{
+            width: 100px;
+        }
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        
+    }
+    
+    main{
+        height: 100vh;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    .container{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .quadrado{
+        display: inline-block;
+        background-color: white;
+        --tamanho: 150px;
+        padding: var(--tamanho);
+       
+    }

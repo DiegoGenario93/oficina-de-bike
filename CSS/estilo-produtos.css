@@ -1,0 +1,153 @@
+nav{
+    background-color: orange;
+}
+nav,h1{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background: orange;
+    color: #fff;
+    border-radius: 3px;
+    font-weight:bold;
+    transition: 0.3ms;
+    }
+    button:hover{
+        background: rgb(100, 66, 2);
+
+    }
+
+    #botao{
+        color: gray;
+        color: white;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    #corpopg{
+        border: solid black 3px;
+    }
+    #titulo{
+        background: black;
+        text-align: center;
+   
+    }
+    .item{
+        color: orange;
+        font-size: 35px;
+    }
+    .item2{
+        color: white;
+        font-size: 35px;
+    }
+    .produtos{
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
+       
+
+    }
+    .descricao{
+      text-align: center;
+      margin-top: 200px;
+    }
+    #titulo2{
+        background-color: black;
+        text-align: center;
+               
+    }
+    @media(max-whidth:1920px){
+        .produtos, nav, section,table,img{
+            width: 1200px;
+        }
+    }
+
+    @media(max-whidth:1200px){
+        .produtos, nav, section,table,img{
+            width: 1024px;
+        }
+    }
+
+    @media(max-whidth:1024px){
+        .produtos, nav, section,table,img{
+            width: 700px;
+        }
+    }
+    @media(max-whidth:700px){
+        .produtos, nav, section,table,img{
+            width: 400px;
+        }
+    }
+
+    @media(max-whidth:400px){
+        .produtos, nav, section,table,img{
+            width: 300px;
+        }
+    }
+    
+    @media(max-whidth:300px){
+        .produtos, nav, section,table,img{
+            width: 200px;
+        }
+    }
+    @media(max-whidth:200px){
+        .produtos, nav, section,table,img{
+            width: 100px;
+        }
+    }
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+main{
+    height: 100vh;
+    max-width: 80%;
+    margin: auto;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    display: inline-block;
+    background-color: white;
+    --tamanho: 150px;
+    padding: var(--tamanho);
+   
+}
+.quadradoo{
+    display: inline-block;
+    background-color: white;
+    --tamanho: 150px;
+    padding: var(--tamanho);
+   
+}
+
+
+
+
+
+   
+    

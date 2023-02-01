@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo-servico.css">
+    <link rel="stylesheet" href="./JS/script.js">
+  
+
+    <title>Serviço</title>
+</head>
+
+<body>
+    
+    <nav>
+        <h1 class="titulonav">OFICINA CWBIKE'S</h1>
+        <div class="titulonav">
+            <button class="titulonav"><a id="botao" href="index.html">INÍCIO</a></button>
+        </div>
+        </nav>
+    
+    <main>
+        <div class="title">
+            <h2>AGENDAMENTO</h2>
+            <span>Agende Seu Serviço</span>
+        </div>
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+        <input type="hidden" name="accessKey" value="cca01cde-1f6a-42e0-9f26-b3679f4e036f">
+        <div class="card">
+            <div class="lineInput">
+                <label>Nome</label>
+                <input name="name" type="text" id="produto" placeholder="Digite Seu Nome">
+            </div>
+            <div class="lineInput">
+                <label>E-mail</label>
+                <input name="email" type="text" id="preco" placeholder="Digite seu E-mail">
+            </div>
+            <div class="lineInput">
+                <label>Endereço</label>
+                <input name="message" type="text" id="preco" placeholder="Digite seu Endereço">
+            </div>
+            <div class="lineInput">
+                <label>Telefone</label>
+                <input name="phone" type="tel" id="preco" placeholder="Digite seu Telefone (xx) xxxxx-xxxx">
+            </div>
+            <div class="lineInput">
+                <label>Modelo da Bike</label>
+                <input name="message" type="text" id="preco" placeholder="Digite a Marca/Modelo da Sua bike">
+            </div>
+            <div class="lineInput">
+                <label>Qual Serviço desejado?</label>
+                <select name="message" name="time">
+                    <option>Serviço mínimo</option>
+                    <option>Revisão Pit-Stop</option>
+                    <option>Revisão Padrão</option>
+                    <option>Revisão Premium</option>
+                </select>
+            </div>
+            <button onclick="alert('Serviço Agendado Obrigado !')">Enviar</button>
+        </div>
+        </form>
+    </main>
+
+</body>
+</html>

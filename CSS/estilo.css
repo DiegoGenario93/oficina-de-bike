@@ -1,0 +1,51 @@
+nav{
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size: 40px;
+    background-color: orange;
+    color: white;
+    margin-top: -2px;
+    display: inline-block;
+    --tamanho: 20px;
+   width: 100%;
+   padding: var(--tamanho);
+    
+}
+nav, a{
+    text-decoration:none;
+    color: white;
+    padding: 15px;
+}
+a:hover{
+    background: rgb(100, 66, 2);
+
+}
+
+.oficina{
+   text-align: center;
+    background-color: white;
+    color: orange;
+}
+
+.texto{
+font-family: "Sofia", sans-serif;
+font-size: 30px;
+}
+.titulo{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+table,tr,td{
+    font-size: 25px;
+    background: gray;
+    color: white;
+   
+}
